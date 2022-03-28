@@ -13,7 +13,7 @@
 </ul>
 <!--  링크는 @{}로 설정  -->
 
-<hr>
+<hr/>
 <ul>
     <li th:each="dto: ${list}">
         [[${dto.sno}]] --- [[${#temporals.format(dto.regTime, 'yyyy-MM-dd')}]]
